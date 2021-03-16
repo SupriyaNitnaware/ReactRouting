@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 5vh;
+  background-color: rgb(56, 62, 63);
+  color: #fff;
+}
+
+.nav-links{
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.navstyle{
+  text-decoration: none;
+  background-color: rgb(99, 110, 110);
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.section{
+  margin: auto;
+  width: 80%;
+  background-color: rgb(194, 206, 206);
+  margin-top: 50px;
+   border-radius: 10px;
+}
+
+.box{
+  display: flex;
+  margin-left: 10%;
+  margin-right: auto;
+  padding: 10px;
+ 
+}
+
+.abt{
+  padding: 10px;
+  margin-top: 70px;
+}
+
+img{
+  width: 300px;
+  height: 300px;
+}
+
+.image{
+  padding: 10px;
+}
+
+.mg{
+  padding: 10px;
+}
+
+/* .row {margin: 0 -5px; } */
+
+.row:after {
+   content: "";
+   /* display: table; */
+   /* clear: both; */
+ }
+
+.column {
+   float: center;
+   width: 25%;
+   padding: 0 10px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.card {
+   border-radius: 1em;
+   margin-top: 30px;
+   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); this adds the "card" effect */
+   padding: 16px;
+   text-align: center;
+   background-color: black;
+   opacity: 0.8;
+   width: 300px;
+   color: #fff;
+ }
+
+.card:hover{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+}
